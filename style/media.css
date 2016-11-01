@@ -1,0 +1,93 @@
+/*---  Размер экрана меньше 480px ---*/
+
+@media screen and (max-width: 480px) {}
+
+
+/*---  Размер экрана больше 481px и меньше 650px ---*/
+
+@media screen and (min-width:481px) and (max-width:650px) {}
+
+
+/*---   Размер экрана больше 651px и меньше 770px    ----*/
+
+@media screen and (min-width:651px) and (max-width:770px) {}
+
+
+/*---   Размер экрана больше 769px и меньше 1024px    ----*/
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .container {
+        max-width: 95.4%;
+    }
+    #scrollup {
+        right: 2.5%;
+    }
+    .menu-container:nth-child(3) .menu-list {
+        right: 2.4%;
+    }
+    .index-btn:nth-child(7) {
+        margin-bottom: 10%;
+    }
+}
+
+
+/*---   Размер экрана больше 1025px и меньше 1280px    ----*/
+
+@media screen and (min-width:1025px) and (max-width:1280px) {
+    .container {
+        max-width: 77%;
+    }
+    #scrollup {
+        right: 4%;
+    }
+    .menu-container:nth-child(3) .menu-list {
+        right: 11.7%;
+    }
+    .slogan {
+        margin: 15% 0px;
+    }
+    .index-btn:nth-child(7) {
+        margin-bottom: 10%;
+    }
+}
+
+
+/*---   Размер экрана больше 1281px и меньше 1366px    ----*/
+
+@media screen and (min-width:1281px) and (max-width:1366px) {
+    .container {
+        max-width: 71.2%;
+    }
+    #scrollup {
+        right: 5.9%;
+    }
+    .menu-container:nth-child(3) .menu-list {
+        right: 14.6%;
+    }
+    .slogan {
+        margin: 15% 0px;
+    }
+    .index-btn:nth-child(7) {
+        margin-bottom: 10%;
+    }
+}
+
+
+/*---   Размер экрана больше 1367px и меньше 1680px    ----*/
+
+@media screen and (min-width:1367px) and (max-width:1680px) {
+    .container {
+        max-width: 58.4%;
+    }
+    #scrollup {
+        right: 9.5%;
+    }
+    .index-btn:nth-child(7) {
+        margin-bottom: 20%;
+    }
+}
+
+
+/*---   Размер экрана больше 1681px и меньше 1920px    ----*/
+
+@media screen and (min-width:1681px) and (max-width:1920px) {}
