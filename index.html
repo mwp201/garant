@@ -32,7 +32,7 @@
                 <li><a href="#" class="menu-link">Дома Бизнес Гарант</a></li>
             </ul>
         </div>
-        <img class="index-logo-top" src="img/logo.png" alt="логотип компании">
+        <img class="index-logo-top" src="img/logo-lg-blue.png" alt="логотип компании">
         <p class="description">Рекламное агенство полного цикла</p>
         <p class="slogan">Мы работаем - Вы зарабатываете!</p>
         <a href="#" class="index-btn" onclick="showElem('modal_window_i_want')">Я знаю, что я хочу</a>
@@ -222,23 +222,23 @@
         elem.style.display = 'none';
     }
     window.onload = function () {
-        var scrollUp = document.getElementById('scrollup');
-        scrollUp.onmouseover = function () { // добавить прозрачность
-            scrollUp.style.opacity = 0.5;
+        var scroll_up = document.getElementById('scrollup');
+        scroll_up.onmouseover = function () { // добавить прозрачность
+            scroll_up.style.background = 'url(img/arrow-up2.png) 50% 12% no-repeat';
         };
 
-        scrollUp.onmouseout = function () { //убрать прозрачность
-            scrollUp.style.opacity = 1;
+        scroll_up.onmouseout = function () { //убрать прозрачность
+            scroll_up.style.background = 'url(img/arrow-up1.png) 50% 12% no-repeat';
         };
 
-        scrollUp.onclick = function () { //обработка клика
+        scroll_up.onclick = function () { //обработка клика
             window.scrollTo(0, 0);
         };
         window.onscroll = function () { // при скролле показывать и прятать блок
             if (window.pageYOffset > 0) {
-                scrollUp.style.display = 'block';
+                scroll_up.style.display = 'block';
             } else {
-                scrollUp.style.display = 'none';
+                scroll_up.style.display = 'none';
             }
         };
     };
